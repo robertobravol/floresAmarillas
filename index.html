@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Te amo bonita </title>
+  <link rel="icon" type="image/png" href="./recursos/us.jpg">
+  <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            background: #111;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #startButton {
+            background-color: #f7a0b3;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            z-index: 100;
+        }
+
+        #startButton:hover {
+            background-color: #f5849e;
+        }
+    </style>  
+  
+</head>
+<body>
+  <button id="startButton">Púlsame</button>
+  
+  <script>
+        document.getElementById('startButton').addEventListener('click', function() {
+            window.location.href = './recursos/flores.html';
+        });
+    </script>
+</body>
+</html>
